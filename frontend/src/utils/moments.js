@@ -12,7 +12,7 @@ const moments = [
   {
     title: 'The first kiss',
     date: 'October 15, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1cwLack2-db0TpnzjWzNpyiYu18vavwX7',
   },
   {
     title: 'First night as a couple',
@@ -95,7 +95,7 @@ const moments = [
     photo: 'https://drive.google.com/uc?export=view&id=1wnDf1gBlG170oF-JaSElkP_EoB2c1kh1',
   },
   {
-    title: 'You met my mother',
+    title: 'You met my mom and sis',
     date: 'December 11, 2022',
     photo: '',
   },
