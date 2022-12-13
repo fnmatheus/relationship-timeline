@@ -80,7 +80,7 @@ const moments = [
     photo: 'https://drive.google.com/uc?export=view&id=1Miwzt9flKgYqMSckkSHlGHSicTHU9-gj',
   },
   {
-    title: 'First call on discord',
+    title: 'First call on Discord',
     date: 'December 4, 2022',
     photo: 'https://drive.google.com/uc?export=view&id=1W86wyEzKTqiSr-t0tLUXFbfGGUW9VaNO',
   },
