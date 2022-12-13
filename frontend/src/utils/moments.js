@@ -57,7 +57,7 @@ const moments = [
   {
     title: 'I saw you singing',
     date: 'November 24, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1OaYer7cvfkHXqnoN32YrFtGGY4zptykg',
   },
   {
     title: 'We started dating',

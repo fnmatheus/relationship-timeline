@@ -39,6 +39,11 @@ main {
   font-family: 'PT Mono', monospace;
 }
 
+.text {
+  /* width: 50%; */
+  text-align: center;
+}
+
 .timeline {
   margin: 3vh 0;
   justify-content: center;
