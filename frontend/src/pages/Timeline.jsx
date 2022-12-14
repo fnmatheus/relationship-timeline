@@ -18,7 +18,7 @@ class Timeline extends Component {
           <section className={styles.timeline}>
             {
               moments.map((moment) => (
-                <div>
+                <div key={moment.date}>
                   <div className={styles.momentHeader}>
                     <h3>{moment.title}</h3>
                     <h4>{moment.date}</h4>

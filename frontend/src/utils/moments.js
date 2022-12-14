@@ -52,7 +52,7 @@ const moments = [
   {
     title: 'Meeting my family',
     date: 'November 20, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1ykrvIv0IW2do2zQ2Vz0LgbxbC2pLIvFf',
   },
   {
     title: 'I saw you singing',
@@ -62,7 +62,7 @@ const moments = [
   {
     title: 'We started dating',
     date: 'November 25, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1VMAVvWeyp9QnBjQeaOPb-8T4lJNft3wC',
   },
   {
     title: 'My dad\'s birthday',
@@ -72,7 +72,7 @@ const moments = [
   {
     title: 'My aunt\'s house',
     date: 'November 27, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1UVdCRJiTp750xG9OtHq4ra3O8G_NQ9c0',
   },
   {
     title: 'We watched Wednesday',
@@ -97,7 +97,7 @@ const moments = [
   {
     title: 'You met my mom and sis',
     date: 'December 11, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1ViQdlLAhzOy-WroVyR12bojK91LxKLu1',
   },
   {
     title: 'Movie together',
