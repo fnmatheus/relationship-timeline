@@ -17,7 +17,7 @@ const moments = [
   {
     title: 'First night as a couple',
     date: 'October 22, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=16t7YbdYGdDqkvlGvRcsTVAgyfe2_R8Sn',
   },
   {
     title: 'Halloween at Void',
@@ -27,7 +27,7 @@ const moments = [
   {
     title: 'Cinema with your friends',
     date: 'November 2, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1P2EGE1XUePdZLqDlb9bhW-xoPbIaAd0z',
   },
   {
     title: 'You came to my house',
@@ -98,6 +98,11 @@ const moments = [
     title: 'You met my mom and sis',
     date: 'December 11, 2022',
     photo: '',
+  },
+  {
+    title: 'Movie together',
+    date: 'December 14, 2022',
+    photo: 'https://drive.google.com/uc?export=view&id=1rWODT9LRsVcXiRnNoJecj69VKZ_8hP8v',
   },
 ];
 
