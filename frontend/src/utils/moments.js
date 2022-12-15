@@ -104,6 +104,11 @@ const moments = [
     date: 'December 14, 2022',
     photo: 'https://drive.google.com/uc?export=view&id=1rWODT9LRsVcXiRnNoJecj69VKZ_8hP8v',
   },
+  {
+    title: 'Last \'forró\' in 2022',
+    date: 'December 15, 2022',
+    photo: 'https://drive.google.com/uc?export=view&id=1j9O_tfyP0bFWmMBL2RapET2ca25aFpgN',
+  },
 ];
 
 export default moments;
