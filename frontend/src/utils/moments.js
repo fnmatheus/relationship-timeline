@@ -22,7 +22,7 @@ const moments = [
   {
     title: 'Halloween at Void',
     date: 'October 28, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=13KAca46CqbpDG0snIbCmC6n8ofQJo-R1',
   },
   {
     title: 'Cinema with your friends',
@@ -67,7 +67,7 @@ const moments = [
   {
     title: 'My dad\'s birthday',
     date: 'November 26, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1bH7V2dEmwD5WKQu50dbLFYdl70pYAj0-',
   },
   {
     title: 'My aunt\'s house',
@@ -108,6 +108,11 @@ const moments = [
     title: 'Last \'forró\' in 2022',
     date: 'December 15, 2022',
     photo: 'https://drive.google.com/uc?export=view&id=1j9O_tfyP0bFWmMBL2RapET2ca25aFpgN',
+  },
+  {
+    title: 'Meeting your family',
+    date: 'December 17, 2022',
+    photo: 'https://drive.google.com/uc?export=view&id=1MuXIeOUZba8y17zf16gQzNs36amS8O4Y',
   },
 ];
 
