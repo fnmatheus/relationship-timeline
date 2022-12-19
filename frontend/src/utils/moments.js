@@ -32,7 +32,7 @@ const moments = [
   {
     title: 'You came to my house',
     date: 'November 5, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1l1oZ6nsI0uzWJZaBtFPVIkpBfvTcPJoU',
   },
   {
     title: 'First date, just us',
@@ -47,7 +47,7 @@ const moments = [
   {
     title: 'Drinks and cards',
     date: 'November 19, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1ZeqU6HIyAW5TU1EAoiTYMrnLIgrZ_aAp',
   },
   {
     title: 'Meeting my family',
@@ -87,7 +87,7 @@ const moments = [
   {
     title: 'Hours talking',
     date: 'December 7, 2022',
-    photo: '',
+    photo: 'https://drive.google.com/uc?export=view&id=1h3vGdgA5vDK5TgZiJt45ZhdtR0frmLlo',
   },
   {
     title: 'Me, you and Steve',
