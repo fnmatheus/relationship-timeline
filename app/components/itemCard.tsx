@@ -5,12 +5,13 @@ import { IMoment } from '../utils/interface';
 export default function ItemCard({ date, title, photo }: IMoment) {
   return (
     <div>
-      <div className="">
-        <h3>{title}</h3>
-        <h4>{date}</h4>
+      <div>
+        <h3 className="m-2">{title}</h3>
+        <h4 className="m-2">{date}</h4>
       </div>
-      <div className="">
+      <div className="flex justify-center pt-[15px] w-[280px] h-[330px] shadow-lg">
         <Image
+          className="w-[250px] h-[250px]"
           width={250}
           height={250}
           src={photo}

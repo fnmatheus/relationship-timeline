@@ -3,3 +3,7 @@ export interface IMoment {
   title: string,
   photo: string
 }
+
+export interface ITimeLineProps {
+  moments: IMoment[]
+}
