@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cookie.variable} ${ptMono.variable}`}>{children}</body>
+      <body className={`${cookie.variable} ${ptMono.variable} bg-white`}>{children}</body>
     </html>
   );
 }
