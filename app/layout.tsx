@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cookie, PT_Mono } from "next/font/google";
+import { Cookie as Cursive, PT_Mono } from "next/font/google";
 import "./globals.css";
 
 const ptMono = PT_Mono({
@@ -8,12 +8,11 @@ const ptMono = PT_Mono({
   variable: "--font-pt-mono"
 });
 
-export const cookie = Cookie({
+const cursive = Cursive({
   subsets: ["latin"],
   weight: ["400"],
-  variable: "--font-cookie"
-})
-
+  variable: "--font-cursive"
+});
 
 export const metadata: Metadata = {
   title: "Timeline",
@@ -27,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${cookie.variable} ${ptMono.variable} bg-white`}>{children}</body>
+      <body className={`${cursive.variable} ${ptMono.variable} bg-white`}>{children}</body>
     </html>
   );
 }

@@ -16,7 +16,7 @@ const config: Config = {
       }
     },
     fontFamily: {
-      cursive: ["var(--font-cookie)"],
+      cursive: ["var(--font-cursive)"],
       mono: ["var(--font-pt-mono)"]
     },
     dropShadow: {
