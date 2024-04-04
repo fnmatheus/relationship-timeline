@@ -1,8 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Cookie, PT_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const ptMono = PT_Mono({
+  subsets: ["latin"],
+  weight:["400"],
+  variable: "--font-pt-mono"
+});
+
+export const cookie = Cookie({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-cookie"
+})
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${cookie.variable} ${ptMono.variable}`}>{children}</body>
     </html>
   );
 }

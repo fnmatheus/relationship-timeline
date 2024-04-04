@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -12,8 +13,16 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      }
     },
+    fontFamily: {
+      cursive: ["var(--font-cookie)"],
+      mono: ["var(--font-pt-mono)"]
+    },
+    dropShadow: {
+      'title': ['1px 1px 0 #000', '-1px -1px 0 #000', '0 3px 0 #fff'],
+      'sub-title': ['0.5px 0.5px 0 #000', '-0.5px -0.5px 0 #000']
+    }
   },
   plugins: [],
 };
