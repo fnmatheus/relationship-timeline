@@ -1,6 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from 'react';
 import Image from 'next/image';
 import { IMomentFormsProps } from '../utils/interface';
+import { momentsDataUrl } from '../utils/urls';
 
 export default function MomentForms({ setIsAdding }: IMomentFormsProps) {
   const submitForms = (e: any) => {
@@ -8,8 +9,19 @@ export default function MomentForms({ setIsAdding }: IMomentFormsProps) {
     const title = e.target.title.value;
     const date = e.target.date.value;
     const photo = e.target.photo.files[0];
-    console.log(title, date, photo)
-    setIsAdding(false);
+    const formData = new FormData();
+    formData.append('title', title);
+    formData.append('date', date);
+    formData.append('photo', photo);
+    
+    fetch(momentsDataUrl, {
+      redirect: "follow",
+      method: "POST",
+      body: formData,
+      mode: 'no-cors',
+    });
+    console.log('feito')
+    // setIsAdding(false);
   };
   
   const [selectedImage, setSelectedImage] = useState<File>();
