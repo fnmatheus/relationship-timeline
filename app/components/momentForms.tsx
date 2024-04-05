@@ -19,10 +19,16 @@ export default function MomentForms({ setIsAdding }: IMomentFormsProps) {
   return (
     <div className="absolute w-full h-full top-0 bg-black/40">
       <div className="w-full h-full flex items-center justify-center">
-        <form className="flex flex-col gap-2 w-max items-center" onSubmit={submitForms}>
-          <input className="border-2 bg-transparent w-full" type="text" name="" id="" />
-          <input type="text" name="" id="" />
-          <input onChange={onFileChage} type="file" name="" id="" />
+        <form className="flex flex-col gap-2 w-max items-center bg-white p-6" onSubmit={submitForms}>
+          <label>
+            <span className="drop-shadow-input-title text-md">title</span>
+            <input className="border-[1px] border-black rounded-md bg-transparent w-full px-2" type="text" name="" id="" />
+          </label>
+          <label>
+          <span className="drop-shadow-input-title text-md">date</span>
+            <input className="border-[1px] border-black rounded-md bg-transparent w-full px-2" type="text" name="" id="" />
+          </label>
+          <input className="w-[280px]" onChange={onFileChage} type="file" name="" id="" title="" />
           <div className="flex justify-center pt-[15px] w-[280px] h-[330px] shadow-xl shadow-black/25 bg-white">
             {
               selectedImage &&

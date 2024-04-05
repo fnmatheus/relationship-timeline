@@ -21,7 +21,8 @@ const config: Config = {
     },
     dropShadow: {
       'title': ['1px 1px 0 #000', '-1px -1px 0 #000', '0 3px 0 #fff'],
-      'sub-title': ['0.5px 0.5px 0 #000', '-0.5px -0.5px 0 #000']
+      'sub-title': ['0.5px 0.5px 0 #000', '-0.5px -0.5px 0 #000'],
+      'input-title': ['0.2px 0.2px 0 #000', '-0.2px -0.2px 0 #000']
     }
   },
   plugins: [],
