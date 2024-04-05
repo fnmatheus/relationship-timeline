@@ -3,8 +3,7 @@ import { useEffect, useState } from 'react';
 import { IMoment } from './utils/interface';
 import Timeline from './components/timeline';
 import Loading from './components/loading';
-
-export const momentsDataUrl = 'https://script.google.com/macros/s/AKfycbyBOgrUUUAFOYyrYrtKY45p79uIW1aCoZEQKq1XTdt5rhM8srLVpq-84ZtfWMdUqbAWFg/exec';
+import { momentsDataUrl } from './utils/urls';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
