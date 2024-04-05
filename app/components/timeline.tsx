@@ -14,9 +14,9 @@ export default function Timeline({ moments }: ITimeLineProps) {
       <header className="flex flex-col w-full items-center mt-2 relative pt-2">
         <div className="relative font-cursive">
           <div className="absolute bottom-1 z-0 bg-[#7d373f] w-[325px] h-[10px] origin-bottom skew-x-[20deg] -skew-y-2" />
-          <h1 className="text-[5rem] -skew-y-2 leading-[3.4rem] drop-shadow-title">Our Timeline</h1>
+          <h1 className="text-[5rem] -skew-y-2 leading-[3.4rem] drop-shadow-title font-bold">Our Timeline</h1>
         </div>
-        <h2 className="drop-shadow-sub-title text-2xl">remembering moments</h2>
+        <h2 className="font-semibold text-2xl">remembering moments</h2>
       </header>
       <section className="flex flex-col items-center gap-6">
         <p className="mx-5 text-center">

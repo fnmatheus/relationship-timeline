@@ -20,7 +20,7 @@ const config: Config = {
       mono: ["var(--font-pt-mono)"]
     },
     dropShadow: {
-      'title': ['1px 1px 0 #000', '-1px -1px 0 #000', '0 3px 0 #fff'],
+      'title': '0 3px 0 #fff',
       'sub-title': ['0.5px 0.5px 0 #000', '-0.5px -0.5px 0 #000'],
       'input-title': ['0.2px 0.2px 0 #000', '-0.2px -0.2px 0 #000']
     }
