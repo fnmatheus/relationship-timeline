@@ -3,9 +3,12 @@ import Image from 'next/image';
 import { IMomentFormsProps } from '../utils/interface';
 
 export default function MomentForms({ setIsAdding }: IMomentFormsProps) {
-  const submitForms = (e: FormEvent<HTMLFormElement>) => {
+  const submitForms = (e: any) => {
     e.preventDefault();
-    console.log(e.target);
+    const title = e.target.title.value;
+    const date = e.target.date.value;
+    const photo = e.target.photo.files[0];
+    console.log(title, date, photo)
     setIsAdding(false);
   };
   
