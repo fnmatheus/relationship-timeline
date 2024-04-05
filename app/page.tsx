@@ -4,7 +4,7 @@ import { IMoment } from './utils/interface';
 import Timeline from './components/timeline';
 import Loading from './components/loading';
 
-const momentsDataUrl = 'https://script.google.com/macros/s/AKfycbx2aHLvwGiybfVAqNOWqHQ9wZAd7AnTUManhiqSUyFKJahDmnB25jjhhR9-ibILuoO9PA/exec';
+export const momentsDataUrl = 'https://script.google.com/macros/s/AKfycbyBOgrUUUAFOYyrYrtKY45p79uIW1aCoZEQKq1XTdt5rhM8srLVpq-84ZtfWMdUqbAWFg/exec';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);

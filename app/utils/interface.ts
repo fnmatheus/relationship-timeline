@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from 'react';
+
 export interface IMoment {
   date: string,
   title: string,
@@ -6,4 +8,8 @@ export interface IMoment {
 
 export interface ITimeLineProps {
   moments: IMoment[]
+}
+
+export interface IMomentFormsProps {
+  setIsAdding: Dispatch<SetStateAction<boolean>>
 }
